@@ -1,0 +1,57 @@
+/* *{
+    background-color: greenyellow;
+    margin: 0;
+} */
+
+/* p, div{
+    background-color: greenyellow;
+    margin: 0;
+} */
+
+/* div p{
+    background-color: greenyellow;
+    margin: 0;
+} */
+
+/* #cabeça p{
+    background-color: red;
+} */
+
+/* #cabeça > p{
+    background-color: red;
+} */
+
+#cabeça + .class {
+    background-color: blue;
+}
+/* div + p{
+    background-color: aqua;
+} */
+
+header ~ p{
+    background-color: yellow;
+}
+
+/* [width]{
+    background-color: aquamarine;
+} */
+
+/* [title~="título"]{
+    background-color: aquamarine;
+} */
+
+/* [title^="título"]{
+    background-color: aquamarine;
+} */
+
+/* [title^="t"]{
+    background-color: aquamarine;
+} */
+
+/* [title$="1"]{
+    background-color: aquamarine;
+} */
+
+[title*="tu"]{
+    background-color: aquamarine;
+}

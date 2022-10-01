@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    </style>
+
+    <script>
+
+        // localStorage.setItem("nome", "Igor");
+
+        // let n = localStorage.getItem("nome");
+        // console.log(n)
+
+
+        // onload = function() {
+
+        //     let nome = localStorage.getItem("nome");
+        //     let h1 = document.getElementById("nome");
+        //     h1.innerHTML = nome;
+
+        // }
+
+        // function atualizar (element) {
+
+        //     let valor = element.value;
+        //     console.log(valor)
+
+        //     let h1 = document.getElementById("nome");
+        //     h1.innerHTML = valor;
+
+        //     localStorage.setItem("nome", valor);
+        // }
+
+            // localStorage.setItem("numero", 5);
+
+            // let n = localStorage.getItem("numero")
+
+            // console.log(n)
+
+            // let a = {nome: "Chico", n1: 9.0}
+
+            // localStorage.setItem("aluno", JSON.stringify(a))
+
+            let a = localStorage.getItem("aluno");
+            console.log(JSON.parse(a))
+
+            localStorage.clear();
+    </script>
+
+</head>
+
+<body>
+    
+    <h1 id="nome"></h1>
+
+    <input type="text" oninput="atualizar(this)">
+
+
+</body>
+
+</html>

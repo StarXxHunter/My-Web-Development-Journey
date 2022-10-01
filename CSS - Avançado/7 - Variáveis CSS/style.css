@@ -1,0 +1,22 @@
+:root{
+    --varcolor: aqua;
+    --square-size: 200px;
+}
+.p2{
+    color: var(--var-color);
+    font-size: 25px;
+}
+.p3{
+    color: var(--varcolor);
+    font-size: 14px;
+}
+.square1{
+    width: var(--square-size);
+    height: var(--square-size);
+    background-color: blue;
+}
+.square2{
+    width: var(--square-size);
+    height: var(--square-size);
+    background-color: green;
+}

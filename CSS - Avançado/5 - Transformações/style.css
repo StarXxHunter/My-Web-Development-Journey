@@ -1,0 +1,14 @@
+img{
+    width: 400px;
+    /* transform: rotate(45Deg); */
+    /* transform: scale(2,0.5); */
+    transform: skew(0Deg, Deg);
+}
+
+div{
+    width: 420px;
+    height: 300px;
+    transform: skew(30deg, 30deg) scale(0.7,1);
+
+    background-color: red;
+}

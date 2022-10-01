@@ -1,0 +1,41 @@
+input:focus{
+    color: greenyellow;
+}
+/* li:first-child{
+    color: blue;
+} */
+/* li:first-of-type{
+    color: red;
+} 
+li:nth-child(2){
+    color: pink;
+}
+li:last-child{
+    color: green;
+}
+li:last-of-type{
+    color: wheat;
+} */
+/* li:nth-of-type(){
+    color: green;
+}    */
+/* li:nth-last-child(2){
+    color: grey;
+} */
+/* li:nth-of-type(2n + 1){
+    color: green;
+}
+li:nth-of-type(2n){
+    color: green;
+}  */
+li{
+    list-style: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+li:nth-of-type(2n){
+    background-color: gold;
+}
+li:nth-of-type(2n + 1){
+    background-color: gray;
+}

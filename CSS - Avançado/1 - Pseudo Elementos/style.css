@@ -1,0 +1,34 @@
+p::first-line{
+    color: blue;
+}
+p::first-letter{
+    color: red;
+    font-size: 200px;
+}
+li{
+    list-style: none;
+    /* list-style-image: url(pastor.jpg); */
+}
+
+/* li::before{
+    content: "NOVO item";
+    color: brown;
+    font-size: 40px;
+} */
+
+li::before{
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    background-image: url(./pastor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+p::selection{
+    background: yellow;
+    color: green;
+}

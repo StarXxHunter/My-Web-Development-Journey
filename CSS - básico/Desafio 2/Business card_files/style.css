@@ -1,0 +1,33 @@
+body{
+    background-image:url(../Images/background.png);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    background-attachment:local;
+}
+@font-face{
+    font-family: Roboto Mono;
+    src: url(../Fonts/RobotoMono-VariableFont_wght.ttf);
+}
+h1{
+    font-family:'Roboto Mono';
+    font-weight:normal;
+    font-size: 20px;
+}
+ul{
+    font-family:'Roboto Mono';
+}
+li#instagram{
+    list-style-image: url("../Images/Insta.png");
+}
+li#twitter{
+    list-style-image: url("../Images/Twitter.png");
+}
+li#youtube{
+    list-style-image: url("../Images/Youtube.png");
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+}

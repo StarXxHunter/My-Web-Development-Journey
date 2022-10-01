@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style type="text/css">
+        body{
+            font-size:1.2rem;
+        }
+        .card{
+            width:400px;
+            height:350px;
+            border: 2px solid blue;
+            float:left;
+            text-align:center;
+            position:relative;
+        }
+        .c1{
+            line-height:200px;
+        }
+        .c2{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .card2{
+            clear:left;
+            border: 2px solid blue;
+            float:left;
+            padding-right:200px;
+            padding-left:200px;
+            padding-top:350px;
+            padding-bottom:350px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="c1">
+            Francisco Bley Ruthes
+        </div>
+    </div>
+    <div class="card">
+        <div class="c2">
+            Francisco Bley Ruthes
+        </div>
+    </div>
+    <div class="card2">
+        <div>
+            Francisco Bley Ruthes
+        </div>
+    </div>
+
+
+</body>
+
+</html>

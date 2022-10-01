@@ -1,0 +1,18 @@
+.links{
+    text-decoration:none;
+    color:blue;
+    background-color: green;
+    padding:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    cursor: zoom-in;
+    border-radius:5px;
+    border: 10px solid blueviolet;
+}
+.links:visited{
+    background: red;
+    color:grey;
+}
+.links:hover{
+    color: greenyellow;
+}

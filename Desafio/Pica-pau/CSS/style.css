@@ -1,0 +1,119 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+#bachelor{
+    color:red;
+}
+#dalhe{
+    color:#FF0000;
+}
+.lista{
+    color:orangered;
+}
+#parágrafos{
+    color:royalblue;
+    background-color: whitesmoke;
+}
+#nois{
+    color: green;
+    background-color:turquoise;
+    text-decoration:underline;
+}
+#cm{
+    background-color: blue;
+    width:1cm;
+    height:1cm;
+}
+#mm{
+    background-color: red;
+    width:1mm;
+    height:1mm;
+}
+#in{
+    background-color:chartreuse;
+    width:1in;
+    height:1in;
+}
+#px{
+    background-color:cornflowerblue;
+    width:10px;
+    height:10px;
+}
+#pt{
+    background-color:darkgreen;
+    width:10pt;
+    height:10pt;
+}
+#pc{
+    background-color: yellowgreen;
+    width:10pc;
+    height:10pc;
+}
+.container{
+    width:50vmax;
+    height:100px;
+    background-color: red;
+}
+.inside{
+    width:100%;
+    height:50%;
+    background-color: blue;
+}
+#base{
+    height:10px;
+    background-color:red;
+}
+#contém{
+    background-color:green;
+    color:white;
+}
+#conteúdo{
+}
+.borda{
+    border:5px dotted rosybrown;
+}
+.quadradão{
+    width: 200px;
+    height:200px;
+    background-color:tomato;
+}
+.dotted{
+    border-style: dotted;
+}
+.paranaue{
+    background-color:red;
+    padding:5px;
+    border:5px solid blue;
+    margin:5px;
+}
+.content{
+    background-color:#ddd;
+    border: 5px solid pink;
+    padding: 5px;
+}
+.square{
+    width:200px;
+    height:200px;
+    background-color:lightskyblue;
+    border:10px solid black;
+    box-sizing: border-box;
+}
+.square2{
+    width:200px;
+    height:200px;
+    background-color:lightskyblue;
+}
+
+p{
+    color:chartreuse;
+    font-family:monospace;
+    font-style: normal;
+    font-size:50px;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+a{
+    text-decoration:none;
+}
+
